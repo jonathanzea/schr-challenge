@@ -1,0 +1,6 @@
+com\weathermiddle\Application.class
+com\weathermiddle\RestControllerAspect.class
+com\weathermiddle\util\GeneralUtils.class
+com\weathermiddle\util\GeneralEnum.class
+com\weathermiddle\controller\WeatherMiddlewareController.class
+com\weathermiddle\docs\SwaggerConfig.class

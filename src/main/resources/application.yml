@@ -1,0 +1,30 @@
+### Java properties file.
+
+spring.jmx:
+   enabled: false
+
+server:
+  port: 8090
+
+#todo: make sure to always enable security in production
+security:
+  basic:
+    enabled: false
+
+#management endpoints on a separate port
+management:
+  port: 8091
+  security:
+    enabled: false # management port is internal only. no need to secure it.
+
+#default project info followed by actual injected pom-specified values.
+project:
+  name: schr-challenge
+  version: 0.1
+  description: Middleware API that points to OpenWheatherMap API
+info:
+  build:
+    artifact: ${project.artifactId}
+    name: ${project.name}
+    description: ${project.description}
+    version: ${project.version}

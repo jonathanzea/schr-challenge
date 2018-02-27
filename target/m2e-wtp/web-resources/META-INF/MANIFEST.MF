@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: schr-challenge
+Implementation-Version: 1
+Built-By: Jonathan Zea
+Implementation-Vendor-Id: com.weathermiddle
+Build-Jdk: 1.8.0_144
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.weathermiddle.Application
+
